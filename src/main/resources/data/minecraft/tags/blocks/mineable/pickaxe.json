@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "qishuiing:qishui_block",
+    "qishuiing:full_qishui",
+    "qishuiing:empty_qishui",
+    "qishuiing:shixiang",
+    "qishuiing:aloearth"
+  ]
+}

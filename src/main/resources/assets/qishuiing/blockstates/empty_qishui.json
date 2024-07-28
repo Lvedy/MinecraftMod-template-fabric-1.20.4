@@ -1,0 +1,40 @@
+{
+  "multipart": [
+    {   "when": { "AND": [{"facing":"north"},{"open": "false"},{"straw": "false"}]},
+      "apply": { "model": "qishuiing:block/qishui_block", "y": 0}
+    },
+    {   "when": { "AND": [{"facing":"north"},{"open": "true"},{"straw": "false"}]},
+      "apply": { "model": "qishuiing:block/full_qishui", "y": 0}
+    },
+    {   "when": { "AND": [{"facing":"north"},{"straw": "true"}]},
+      "apply": { "model": "qishuiing:block/empty_qishui", "y": 0}
+    },
+    {   "when": { "AND": [{"facing":"east"},{"open": "false"},{"straw": "false"}]},
+      "apply": { "model": "qishuiing:block/qishui_block", "y": 90}
+    },
+    {   "when": { "AND": [{"facing":"east"},{"open": "true"},{"straw": "false"}]},
+      "apply": { "model": "qishuiing:block/full_qishui", "y": 90}
+    },
+    {   "when": { "AND": [{"facing":"east"},{"straw": "true"}]},
+      "apply": { "model": "qishuiing:block/empty_qishui", "y": 90}
+    },
+    {   "when": { "AND": [{"facing":"south"},{"open": "false"},{"straw": "false"}]},
+      "apply": { "model": "qishuiing:block/qishui_block", "y": 180}
+    },
+    {   "when": { "AND": [{"facing":"south"},{"open": "true"},{"straw": "false"}]},
+      "apply": { "model": "qishuiing:block/full_qishui", "y": 180}
+    },
+    {   "when": { "AND": [{"facing":"south"},{"straw": "true"}]},
+      "apply": { "model": "qishuiing:block/empty_qishui", "y": 180}
+    },
+    {   "when": { "AND": [{"facing":"west"},{"open": "false"},{"straw": "false"}]},
+      "apply": { "model": "qishuiing:block/qishui_block", "y": 270}
+    },
+    {   "when": { "AND": [{"facing":"west"},{"open": "true"},{"straw": "false"}]},
+      "apply": { "model": "qishuiing:block/full_qishui", "y": 270}
+    },
+    {   "when": { "AND": [{"facing":"west"},{"straw": "true"}]},
+      "apply": { "model": "qishuiing:block/empty_qishui", "y": 270}
+    }
+  ]
+}

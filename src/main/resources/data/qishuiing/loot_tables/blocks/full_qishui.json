@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "qishuiing:qishui_block",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "qishuiing:full_qishui",
+              "properties": {
+                "open": "false"
+              }
+            },
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "qishuiing:full_qishui",
+              "properties": {
+                "straw": "false"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "qishuiing:full_qishui",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "qishuiing:full_qishui",
+              "properties": {
+                "open": "true"
+              }
+            },
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "qishuiing:full_qishui",
+              "properties": {
+                "straw": "false"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "qishuiing:empty_qishui",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "qishuiing:full_qishui",
+              "properties": {
+                "open": "true"
+              }
+            },
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "qishuiing:full_qishui",
+              "properties": {
+                "straw": "true"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

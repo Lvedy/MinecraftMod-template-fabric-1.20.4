@@ -1,0 +1,15 @@
+{
+  "default": "",
+  "itemgroup.qishuiing": "QiShui",
+  "item.qishuiing.qishui_item": "QiShui",
+  "qishuiing.qishui_item.introduce": "Qishui's head",
+  "block.qishuiing.qishui_block": "qishui block",
+  "qishuiing.qishui_block.introduce": "This can place on ground",
+  "block.qishuiing.full_qishui": "full qishui",
+  "block.qishuiing.empty_qishui": "empty qishui",
+  "item.qishuiing.straw": "straw",
+  "block.qishuiing.shixiang": "shixiang",
+  "block.qishuiing.aloearth": "Aloearth",
+  "effect.qishuiing.qishui_effect": "build boss",
+  "entity.qishuiing.pvp_boss": "jjj"
+}

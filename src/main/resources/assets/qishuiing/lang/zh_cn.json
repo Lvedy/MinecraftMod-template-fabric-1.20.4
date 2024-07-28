@@ -1,0 +1,15 @@
+{
+  "default": "",
+  "itemgroup.qishuiing": "汽水",
+  "item.qishuiing.qishui_item": "汽水",
+  "qishuiing.qishui_item.introduce": "汽水的头部贴图",
+  "block.qishuiing.qishui_block": "罐装汽水",
+  "qishuiing.qishui_block.introduce": "可以放在地上",
+  "block.qishuiing.full_qishui": "刚开罐的汽水",
+  "block.qishuiing.empty_qishui": "空汽水瓶子",
+  "item.qishuiing.straw": "吸管",
+  "block.qishuiing.shixiang": "石像",
+  "block.qishuiing.aloearth": "阿洛厄斯",
+  "effect.qishuiing.qishui_effect": "建筑大蛇",
+  "entity.qishuiing.pvp_boss": "pvp大佬"
+}
